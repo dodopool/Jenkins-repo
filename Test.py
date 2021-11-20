@@ -19,14 +19,6 @@ class TestFibo(unittest.TestCase):
 		test_2 = 1
 		result = fibonacci(test_2)
 		self.assertEqual(result, 1)
-	def test_case_3(self):
-		test_3 = 5
-		result = fibonacci(test_3)
-		self.assertEqual(result, 5)
-	def test_case_4(self):
-		test_4 = 9
-		result = fibonacci(test_4)
-		self.assertEqual(result, 34)
 		
 if __name__ == '__main__':
 	unittest.main()
